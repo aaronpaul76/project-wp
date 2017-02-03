@@ -1,0 +1,71 @@
+h1{
+    color: silver;
+	font-size:56px;
+	text-align:center;
+	font-weight: bold;
+	text-decoration: underline;
+	text-shadow: 2px 2px 8px #f2f9f9;
+}
+
+tr a:link, a:visited  {
+  
+  text-decoration: none;
+  background-color: red;
+  border: 2px orange;
+  color: black;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 1px;
+  
+}
+
+tr a:hover, a:active{
+background-color: lightblue;
+  color: red;
+}
+
+tr{
+	background-color:#f9912f ;
+}
+th{
+	background-color: #f92f43
+;
+}
+body{
+	background: url(blacksky2.jpg) no-repeat;
+	background-attachment: fixed; 
+	background-position: center;
+	background-size:1500px;
+	background-attachment: fixed; 
+	background-position: center;
+	margin: 0; 
+	padding: 0;
+	
+    color: white;
+}
+
+.blue{
+	background-color: lightblue;
+}
+
+h2{
+    color: #f41a51;
+	font-size:30px;
+	text-align:center;
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+body h3{
+    color: #1dd1f9
+;
+	font-size:25px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a{
+	background-color: silver;
+}
