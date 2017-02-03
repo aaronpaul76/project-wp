@@ -1,0 +1,45 @@
+body{
+	font-size:1.2em;
+	position:absolute;
+	left:550px;
+	top:140px;
+	height:140px;
+	text-align:center;
+	width:230px;
+	z-index:3;
+        background: url(final.jpg)no-repeat;
+        background-size:cover;
+        background-repeat: repeat-y;
+        background-color: black;
+        color: white;
+	}
+
+h1{
+    color: light grey;
+;
+	font-size:56px;
+	
+	font-weight: bold;
+	text-decoration: underline;
+	text-shadow: 2px 2px 8px #f2f9f9;
+        font-style:italic;
+}
+
+h2{
+    color: grey;
+	font-size:30px;
+	text-align:center;
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+body h3{
+    color: #80aaaa
+
+;
+	font-size:25px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
