@@ -1,0 +1,40 @@
+Say hello to 
+    <input id="name" type="text">
+    <button onclick="sayHello();">
+      Say it!
+    </button>
+  </p>
+
+  
+  <div id="content"></div>
+
+  <script src="lect53.js"></script>
+
+ 
+
+<script type="text/javascript">
+      function printChecked(){
+        var items=document.getElementsByName('acs');
+        var selectedItems="";
+        for(var i=0; i<items.length; i++){
+          if(items[i].type=='checkbox' && items[i].checked==true)
+            selectedItems+=items[i].value+"\n";
+        }
+        alert(selectedItems);
+      }     
+    </script>
+</body>
+<body style="text-align: left;">
+  <h1>marks of subject</h1>
+  <big>Select your subject: </big><br>
+  <input type="checkbox" name="acs" value="you got 12">Mpmc<br>
+  <input type="checkbox" name="acs" value="you got 9">wp<br>
+  <input type="checkbox" name="acs" value="you got 13">math<br>
+  <input type="checkbox" name="acs" value="you got 12">os<br>
+  <p>
+    <input type="button" onclick='printChecked()' value="Print Selected Items"/>
+  </p>
+</body>
+
+</html>
+</html>
