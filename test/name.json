@@ -1,10 +1,10 @@
 {
   "course1": "mathematics",
   "student1": "karan",
-  "ques11": 49,
-  "ques12": 56, 
-  "ques21": 35,
-  "ques22": 62,
+  "ques11": "Mumbai is in Maharashtra",
+  "ques12": "Paris is in France", 
+  "ques21": "new york is in the united states",
+  "ques22": "london is in europe",
   "student2": "rahul",
   "course2": "operating systems"
  
