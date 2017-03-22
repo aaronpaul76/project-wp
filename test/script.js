@@ -15,12 +15,12 @@ document.addEventListener("DOMContentLoaded",
                  
               if ( temp === res.student1) {
              
-                var temp2= res.course1+": "+res.marks11
-                var temp1= res.course2+": "+res.marks12
+                var temp2= res.course1+": "+res.ques11
+                var temp1= res.course2+": "+res.ques12
               }
               else if (temp === res.student2) {
-                var temp2= res.course1+": "+res.marks21
-                var temp1= res.course2+": "+res.marks2
+                var temp2= res.course1+": "+res.ques21
+                var temp1= res.course2+": "+res.ques22
               }
           else {
             var temp1 = "no such student";
